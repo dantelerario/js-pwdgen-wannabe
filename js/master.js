@@ -14,4 +14,6 @@ var color = prompt('What\'s your favourite color?');
 
 var password = name + surname + color + 20;
 
+console.log(yourpassword);
+
 document.getElementById('yourpassword').innerHTML = password;
